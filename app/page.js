@@ -8,10 +8,11 @@ export default function Home() {
     <div className='h-full w-64 flex-col fixed inset-y-0 z-50'>
         <SideBarNav />
       </div>
-      <div className='fixed inset-x-0 bg-transparent'>
+      <div className=' inset-x-0 bg-transparent'>
       <Header />
     </div>
-    <UserButton afterSignOutUrl="/sign-in"/>
+   
+    
     
     <div className="mt-20 ml-64 pt-10 pl-5"> 
     <h2 className="text-7xl"> Welcome Champ </h2>
